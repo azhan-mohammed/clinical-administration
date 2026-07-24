@@ -1,0 +1,8 @@
+name: Rollback
+
+on:
+  workflow_dispatch:
+
+jobs:
+  rollback:
+    uses: azhan-mohammed/centralized-repo/.github/workflows/rollback.yml@master
